@@ -2,13 +2,17 @@ import React from "react";
 import { Link } from "react-router-dom";
 //import logo from "../assets/logo.png";
 
+import logo from "../../images/logo.jpg";
+
+
+
 const Header = () => {
   return (
     <header>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="container-fluid">
           <Link to="/" className="navbar-brand">
-            {/* <img src="#"{logo} alt="Logo" width="80" height="80" /> */}
+             <img src={logo} alt="Logo" width="80" height="80" /> 
           </Link>
           <button
             className="navbar-toggler"
