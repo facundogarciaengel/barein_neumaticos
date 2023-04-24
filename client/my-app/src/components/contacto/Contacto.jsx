@@ -1,5 +1,12 @@
 import React from "react";
 import { Container, Row, Col, Form, Button } from "react-bootstrap";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faWhatsapp } from '@fortawesome/free-brands-svg-icons'
+import { faCoffee } from '@fortawesome/free-solid-svg-icons';
+
+
+
+
 
 const Contacto = () => {
   return (
@@ -35,8 +42,15 @@ const Contacto = () => {
             </Form>
           </Col>
           <Col xs={12} md={6}>
-            <h2>Información de contacto</h2>
-            <p>Acá puedes incluir información de contacto, como teléfonos, email, dirección, horarios de atención, entre otros.</p>
+            <div>
+              <h2>Información de contacto</h2>
+              <p>Hipólito Yrigoyen 960 - Jose C. Paz</p>
+              <p>Tel.: 02320-430402</p>
+              <p><FontAwesomeIcon icon={faWhatsapp} /> 11-23286407 </p> 
+              <p>e-Mail: sabrinaunlu@hotmail.com</p>
+              <p>LUN A VIER 8:00 a 12:30 HS Y DE 14:30 A 18:30 HS.</p>
+              <p>SAB 8:00 A 13:00 HS</p>
+            </div>
           </Col>
         </Row>
       </Container>

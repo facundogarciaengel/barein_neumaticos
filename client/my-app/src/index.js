@@ -4,6 +4,14 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faCoffee } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {faWhatsapp} from '@fortawesome/free-brands-svg-icons';
+
+library.add(faCoffee);
+library.add(faWhatsapp);
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
