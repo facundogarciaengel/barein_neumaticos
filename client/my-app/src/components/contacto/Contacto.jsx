@@ -5,8 +5,7 @@ import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import { faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faEnvelope as farEnvelope } from "@fortawesome/free-regular-svg-icons";
-import WhatsAppButton from "../whatsapp/WhatsAppButton";
-
+import WhatsAppButton from "../whatsappButton/WhatsAppButton";
 import "./Contacto.css";
 
 const Contacto = () => {
@@ -46,7 +45,7 @@ const Contacto = () => {
             <div className="contacto-info">
               <h2>Información de contacto</h2>
               <div>
-                <FontAwesomeIcon icon={faMapMarkerAlt} />
+                <FontAwesomeIcon icon={faMapMarkerAlt} className="location-icon-link"/>
                 <a href="https://www.google.com.ar/maps/place/Neum%C3%A1ticos+Barein+GP/@-34.5149552,-58.7460756,17z/data=!3m1!4b1!4m6!3m5!1s0x95bc98041eb2c5df:0xbcbb5a7997a4aef0!8m2!3d-34.5149596!4d-58.7435007!16s%2Fg%2F11ckxwbswg" target="_blank" rel="noopener noreferrer">
                   <span> Hipólito Yrigoyen 960 - Jose C. Paz </span>
                 </a>
