@@ -1,0 +1,49 @@
+.servicios {
+    background-color: #f5f5f5;
+    padding: 50px 0;
+  }
+  
+  .servicios-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .servicio {
+    width: calc(33.33% - 40px);
+    margin: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+  }
+  
+  .servicio:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
+  }
+  
+  .servicio-icono {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    font-size: 3rem;
+    color: #333;
+  }
+  
+  .servicio h3 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.5rem;
+  }
+  
+  .servicio p {
+    padding: 20px;
+    text-align: justify;
+    font-size: 1rem;
+  }
+  
