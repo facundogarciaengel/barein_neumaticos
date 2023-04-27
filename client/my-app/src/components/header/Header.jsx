@@ -1,10 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-//import logo from "../assets/logo.png";
-
 import logo from "../../images/logo.jpg";
-
-
 
 const Header = () => {
   return (
@@ -51,3 +47,4 @@ const Header = () => {
 };
 
 export default Header;
+

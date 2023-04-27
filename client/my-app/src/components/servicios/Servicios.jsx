@@ -4,7 +4,7 @@ import { IoMdSpeedometer } from 'react-icons/io';
 import { GiBrakeDisc, GiSuspensionBridge } from 'react-icons/gi';
 import React from 'react';
 import './Servicios.css';
-
+import WhatsAppButton from '../whatsappButton/WhatsAppButton';
 
 
 function Servicios() {
@@ -69,6 +69,7 @@ function Servicios() {
                     </p>
                 </div>
             </div>
+            <WhatsAppButton />
         </section>
     );
 }
