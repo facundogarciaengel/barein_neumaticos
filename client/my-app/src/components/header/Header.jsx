@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../../images/logo.jpg";
+import "./Header.css";
 
 const Header = () => {
   return (
@@ -8,8 +9,9 @@ const Header = () => {
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="container-fluid">
           <Link to="/" className="navbar-brand">
-             <img src={logo} alt="Logo" width="80" height="80" /> 
+            <img src={logo} alt="Logo" className="logo" /> 
           </Link>
+          <h1 className="navbar-brand">Barein GP</h1>
           <button
             className="navbar-toggler"
             type="button"
@@ -47,4 +49,3 @@ const Header = () => {
 };
 
 export default Header;
-
